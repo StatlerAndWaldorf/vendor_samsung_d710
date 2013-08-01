@@ -49,3 +49,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/WiMAXSettings.apk:system/app/WiMAXSettings.apk \
+    $(LOCAL_PATH)/proprietary/WiMAXHiddenMenu.apk:system/app/WiMAXHiddenMenu.apk \
+    $(LOCAL_PATH)/proprietary/AngryGPS.apk:system/app/AngryGPS.apk \
+    $(LOCAL_PATH)/proprietary/SystemUpdateUI.apk:system/app/SystemUpdateUI.apk \
+    $(LOCAL_PATH)/proprietary/SprintMenu.apk:system/app/SprintMenu.apk
